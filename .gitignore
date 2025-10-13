@@ -1,0 +1,26 @@
+# Archivos y carpetas que Unity genera automáticamente
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.ide
+# Carpetas de paquetes y dependencias externas
+Packages/com.unity.package-manager-do-not-modify/
