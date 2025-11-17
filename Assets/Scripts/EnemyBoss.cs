@@ -40,7 +40,7 @@ public class EnemyBoss : MonoBehaviour
 
     public void TakeDamage(int d)
     {
-        if (currentHealth <= 0) return; // evita daño extra si ya murió
+        if (currentHealth <= 0) return; // evita daï¿½o extra si ya muriï¿½
 
         currentHealth -= d;
         if (healthBar != null) healthBar.SetHealth(currentHealth);
@@ -52,6 +52,6 @@ public class EnemyBoss : MonoBehaviour
     void Die()
     {
         if (animator != null) animator.SetTrigger("Die");
-        Destroy(gameObject, 1.2f); // tiempo para reproducir animación
+        Destroy(gameObject, 1.2f); // tiempo para reproducir animaciï¿½n
     }
 }
